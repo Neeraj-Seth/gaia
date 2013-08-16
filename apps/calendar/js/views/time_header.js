@@ -116,7 +116,7 @@ Calendar.ns('Views').TimeHeader = (function() {
           );
         }
 
-        return scale + this.app.dateFormat.localeFormat(
+        return scale + ' ' + this.app.dateFormat.localeFormat(
             lastWeekday,
             navigator.mozL10n.get(this.scales.month)
         );
